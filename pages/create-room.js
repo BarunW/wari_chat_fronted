@@ -95,7 +95,7 @@ const CreateRoom = () => {
                         <p>After this time chat will no longer available from our site</p>
                     </small>
            
-                <button  className="border-2 rounded w-1/3 ml-5"onClick={handleSubmit}>Create Now</button> 
+                <button  className="border-2 rounded w-1/3 ml-5"onClick={handleSubmit} style={{zIndex: 1}}>Create Now</button> 
             </form>
         </main>
           
